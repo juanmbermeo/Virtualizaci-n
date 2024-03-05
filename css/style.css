@@ -1,3 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+.sub{
+    background-color: white;
+    text-align: center;
+}
+.list{
+    display: inline-block;
+}
+.list a{
+    color: #000;
+    text-decoration: none;
+    padding: 25px 25px 25px 25px;
+    display: block;
+}
+.list a:hover{
+    background-color: #000;
+    color: white;
+}
+.t1{
+    text-align: center
+}
 .container {
     display: flex;
 }
@@ -5,11 +29,11 @@
     border-radius: 20px;
     margin-left: 10px;
     height: 200px;
-    background-color: black;
+    background-color: white;
     flex: 1;
     transition: .3s all ease;
 }
 .card:hover {
     flex: 2;
-    background-color: black;
+    background-color: white;
 }
