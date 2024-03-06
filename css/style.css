@@ -23,17 +23,35 @@ body{
     text-align: center
 }
 .container {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+
 }
 .card {
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 200px;
+    background-color: white;
+    flex: 1%;
+    transition: transform 0.1s ease-in-out;
+    margin-bottom: 10%;
+}
+.card:hover {
+    flex: 5%;
+    background-color: white;
+    transform: scale(1.2);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.img{
     border-radius: 20px;
     margin-left: 10px;
     height: 200px;
     background-color: white;
-    flex: 1;
-    transition: .3s all ease;
+    margin-left: 36%;
 }
-.card:hover {
-    flex: 2;
-    background-color: white;
+img{
+   width: 400px;
+   height: 200px;
 }
